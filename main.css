@@ -1,0 +1,83 @@
+body {
+    font-family: 'Gabarito', cursive;
+    color: white;
+    background-image: url('public/vegetables.jpg');
+    background-repeat: no-repeat;
+    min-width: 1000px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+    line-height: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 22px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+#mainBackground {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    margin: 0px;
+    padding-top: 250px;
+}
+.mainHead, .secondHead {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.mainHead {
+    border-bottom: 2px solid white;
+    font-size: 80px;
+}
+.secondHead {
+    font-weight: lighter;
+}
+.cardText {
+    color: white;
+    text-align: end;
+}
+#breadParent {
+    background-color: black;
+    height: 400px;
+    position: relative; 
+}
+  
+#bread {
+    position: absolute;
+    top: 0;
+}
+#pineappleParent {
+    background-color: rgb(38, 38, 38);
+    height: 500px;
+    position: relative;
+}
+  
+#pineapple {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#pastaParent {
+    background-color: rgb(63, 63, 63);
+    height: 400px;
+    position: relative;
+}
+  
+#pasta {
+    position: absolute;
+    top: 0;
+}
