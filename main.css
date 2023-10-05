@@ -11,8 +11,7 @@ nav {
     padding-top: 10px;
     border-bottom: 2px solid white;
     line-height: 0px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 0px 40px;
     font-size: 22px;
 }
 nav ul {
@@ -21,63 +20,67 @@ nav ul {
 }
 nav li{
     list-style-type: none;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 nav a {
     text-decoration: none;
     color: white;
 }
 #mainBackground {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     text-align: center;
-    margin: 0px;
-    padding-top: 250px;
 }
-.mainHead, .secondHead {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+#textContainer {
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
 .mainHead {
+    display: inline;
     border-bottom: 2px solid white;
-    font-size: 80px;
+    font-size: 100px;
+    padding: 0px 70px;  
 }
 .secondHead {
-    font-weight: lighter;
-}
-.cardText {
-    color: white;
-    text-align: end;
+    font-family: 'Open Sans', sans-serif;
 }
 #breadParent {
     background-color: black;
     height: 400px;
     position: relative; 
+    margin: 0 -10px;
 }
-  
 #bread {
-    position: absolute;
-    top: 0;
+    float: left;
+}
+#bread img, #pasta img {
+    margin-right: 70px;
+}
+#pineapple img {
+    margin-left: 70px;
 }
 #pineappleParent {
     background-color: rgb(38, 38, 38);
     height: 500px;
     position: relative;
-}
-  
+    margin: 0 -10px;
+} 
 #pineapple {
-    position: absolute;
-    top: 0;
-    right: 0;
+    float: right;
 }
 #pastaParent {
     background-color: rgb(63, 63, 63);
     height: 400px;
     position: relative;
+    margin: 0 -10px;
 }
-  
 #pasta {
-    position: absolute;
-    top: 0;
+    float: left
+}
+#cardText {
+    font-family: 'Open Sans', sans-serif;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
 }
